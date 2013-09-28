@@ -35,7 +35,7 @@ module Octokit
     # requests at a higher rate limit
     #
     # @see http://developer.github.com/v3/#unauthenticated-rate-limited-requests
-    # @return Boolean
+    # @return [Boolean]
     def application_authenticated?
       !!application_authentication
     end

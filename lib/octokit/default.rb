@@ -87,7 +87,7 @@ module Octokit
 
       # Default middleware stack for Faraday::Connection
       # from {MIDDLEWARE}
-      # @return [String]
+      # @return [Faraday::Builder]
       def middleware
         MIDDLEWARE
       end

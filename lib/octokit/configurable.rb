@@ -3,7 +3,7 @@ module Octokit
   # Configuration options for {Client}, defaulting to values
   # in {Default}
   module Configurable
-    # @!attribute [w] access_token
+    # @!attribute access_token
     #   @see http://developer.github.com/v3/oauth/
     #   @return [String] OAuth2 access token for authentication
     # @!attribute api_endpoint
@@ -34,7 +34,7 @@ module Octokit
     # @!attribute [w] password
     #   @return [String] GitHub password for Basic Authentication
     # @!attribute per_page
-    #   @return [String] Configure page size for paginated results. API default: 30
+    #   @return [Fixnum] Configure page size for paginated results. API default: 30
     # @!attribute proxy
     #   @see https://github.com/lostisland/faraday
     #   @return [String] URI for proxy server
